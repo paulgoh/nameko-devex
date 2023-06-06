@@ -4,6 +4,7 @@ metadata:
   name: nameko-devex
   annotations:
     github.com/project-slug: paulgoh/nameko-devex
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown

@@ -1,4 +1,4 @@
-apiVersion: joOrbit/python-starter
+apiVersion: 1.0.0
 kind: Component
 metadata:
   name: python-starter

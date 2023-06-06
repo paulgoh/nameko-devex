@@ -1,19 +1,10 @@
-apiVersion: jpOrbit/v1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: python-starter
-  description: |
-    Python project to demonstrate how a standard python project is to be built in Orbit Platform.
-  links:
-    - title: Gitlab
-      url: https://gitlab.com/jporbit/python-starter
-    - title: Wiki
-      url: https://gitlab.com/jporbit/python-starter/-/wikis/home
+  name: nameko-devex
   annotations:
-    gitlab.com/project-slug: python-starter/python-starter
-    python-starter/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
+    github.com/project-slug: paulgoh/nameko-devex
 spec:
-  type: library
-  owner: JPMC
-  lifecycle: experimental
+  type: other
+  lifecycle: unknown
+  owner: paulgoh

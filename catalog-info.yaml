@@ -1,0 +1,19 @@
+apiVersion: joOrbit/python-starter
+kind: Component
+metadata:
+  name: python-starter
+  description: |
+    Python project to demonstrate how a standard python project is to be built in Orbit Platform.
+  links:
+    - title: Gitlab
+      url: https://gitlab.com/jporbit/python-starter
+    - title: Wiki
+      url: https://gitlab.com/jporbit/python-starter/-/wikis/home
+  annotations:
+    gitlab.com/project-slug: python-starter/python-starter
+    python-starter/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: JPMC
+  lifecycle: experimental
